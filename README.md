@@ -18,7 +18,7 @@ jumia-jitters-return-prediction/
 │   └── return_prediction_model.pkl         # Saved model
 │   └── scaler.pkl                          # Scaler object
 │                      
-├── pipeline/
+├── scripts/
 │   ├── config.py                           # Config variables
 │   ├── utils.py                            # Feature engineering & preprocessing
 │   └── run_pipeline.py                     # Script to run predictions
