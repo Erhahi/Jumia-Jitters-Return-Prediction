@@ -1,22 +1,22 @@
 ___
 # Dataverse Africa Challenge – E-Commerce Returns & Seller Profiling
 
-## 👋 Overview
+## Overview
 This project analyzes real-world e-commerce data from Jumia to uncover return risk patterns and seller behaviors. It combines data analysis, predictive modeling, and business recommendations to help reduce logistics costs and identify risky sellers.
-
-## 📌 Phases Completed
+___
+## Phases Completed
 1. **Data Exploration** – Explored 987 records from the Jumia dataset (`jumia_jitters_dataset.csv`)
 2. **Market Insights** – Analyzed product prices, delays, customer reviews, and seller activity
 3. **Modeling Return Risk** – Built logistic regression to predict return likelihood (AUC: 0.91)
 4. **Strategic Recommendations** – Proposed actionable insights for seller risk monitoring
 5. **Script Pipeline** – Packaged reusable Python scripts for scalable deployment
 
-## 💡 Key Insights
+## Key Insights
 - **Late delivery** and **low customer ratings** drive return risk
 - Certain sellers have unusually high return rates
 - Sentiment analysis of customer reviews adds strong predictive power
 
-## 🛠️ Files & Structure
+## Files & Structure
 
 ___
 ```
@@ -59,7 +59,7 @@ jumia-jitters-return-prediction/
 └──  charts/                      
 ```
 
-## ▶️ Run the Pipeline
+## Run the Pipeline
 ```bash
 # Navigate to the scripts folder and run:
 python run_pipeline.py
