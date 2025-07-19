@@ -38,11 +38,6 @@ jumia-jitters-return-prediction/
 │ 
 ├── outputs/
 │   └── return_predictions.csv
-│
-├── script/
-│   └── config.py
-│   └── run_pipeline.py
-│   └── utils.py
-│         
+│   
 └──  charts/                      
 ```
